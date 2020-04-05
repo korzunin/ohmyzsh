@@ -75,7 +75,7 @@ source $ZSH/oh-my-zsh.sh
 source $ZSH/my-custom/other.cfg
 
 
-# User configuration 111
+# User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
