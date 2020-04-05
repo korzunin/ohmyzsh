@@ -98,6 +98,7 @@ setup_ohmyzsh() {
 		-c fetch.fsck.zeroPaddedFilemode=ignore \
 		-c receive.fsck.zeroPaddedFilemode=ignore \
 		--recurse-submodules \
+		--recursive \
 		--depth=1 --branch "$BRANCH" "$REMOTE" "$ZSH" || {
 		error "git clone of oh-my-zsh repo failed"
 		exit 1
