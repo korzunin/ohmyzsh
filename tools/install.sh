@@ -35,6 +35,7 @@
 # or:
 #   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 #
+#set -e
 set -e
 
 # Track if $ZSH was provided
